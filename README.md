@@ -11,7 +11,7 @@ It can compile pure BrainFuck codes, and there's are 4 new keywords.
 ^, v : 수직포인터를 조종합니다. >< 와 사용례가 같습니다.
        Controll the horizontal pointer. Same usage with ><.
 
-* : 수평포인터가 가르키는 값, 즉 (v,0) 과 수직포인터가 가르키는 값 (0,h) 의 곱을 (v,h) 에 더합니다.
+'*' : 수평포인터가 가르키는 값, 즉 (v,0) 과 수직포인터가 가르키는 값 (0,h) 의 곱을 (v,h) 에 더합니다.
     Add product of two values which pointed by vertical pointer and horizontal pointer, at (v,h)
 
 = : 프로그램을 끝냅니다.
